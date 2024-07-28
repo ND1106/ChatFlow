@@ -25,6 +25,7 @@ import com.example.chatroomapplication.ui.theme.ChatRoomApplicationTheme
 import com.example.chatroomapplication.viewmodel.AuthViewModel
 
 class MainActivity : ComponentActivity() {
+    @RequiresApi(Build.VERSION_CODES.O)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
